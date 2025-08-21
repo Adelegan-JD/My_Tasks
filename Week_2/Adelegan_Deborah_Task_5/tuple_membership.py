@@ -1,7 +1,7 @@
 # TASK 3: Tuple Operations
 
 # Accept user's states
-state_name = (input("Enter any five states that you know. Please separate them by commas: "))
+state_name = (input("Enter any five states that you know. Please separate them by commas: ").title())
 
 # Split the list to have each item as a staandalone
 split_state = state_name.split(",")
