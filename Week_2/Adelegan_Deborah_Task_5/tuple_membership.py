@@ -3,7 +3,7 @@
 # Accept user's states
 state_name = (input("Enter any five states that you know. Please separate them by commas: ").title())
 
-# Split the list to have each item as a staandalone
+# Split the list to have each item as a standalone
 split_state = state_name.split(",")
 
 # Store the split list into a tuple
