@@ -12,4 +12,4 @@ pounds = float(input("How much is the current exchange from naira to pounds?: ")
 converted_naira = naira * dollar
 converted_pounds = naira * pounds
 print()
-print(f"\t\t\tCURRENCY CONVERSION\nNaira:\t\t{naira}\n\nDollar:\t\t{converted_naira} \n\nPounds:\t\t{converted_pounds}")
+print(f"\t\t\tCURRENCY CONVERSION\nNaira:\t\t{naira:.2f}\n\nDollar:\t\t{converted_naira:.2f} \n\nPounds:\t\t{converted_pounds:.2f}")
